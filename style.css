@@ -32,6 +32,7 @@ h1 {
 	src: url(/fonts/Minecraft-Rus-NEW.woff);
 }
 p {
+	margin-top: 10px; 
 	text-align: center;
 	font-size: 35px;
 }
