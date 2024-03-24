@@ -43,7 +43,9 @@ p {
     text-align: center;
     font-size: 35px;
 }
-
+i {
+    text-align: center;
+}
 a {
     text-decoration: none;
     margin-right: 20px;
