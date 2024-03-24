@@ -30,7 +30,7 @@ h1 {
     text-align: center;
     font-size: 35px;
     font-family: Z;
-    margin-bottom: 30px; /* Добавьте нужный отступ снизу */
+    margin-bottom: 30px;
 }
 
 @font-face {
@@ -39,18 +39,18 @@ h1 {
 }
 
 p {
-    margin-top: 30px; /* Увеличено расстояние между иконками и текстом */
+    margin-top: 30px;
     text-align: center;
     font-size: 35px;
 }
 
 a {
     text-decoration: none;
-    margin-right: 20px; /* Исправлена точка с запятой */
+    margin-right: 20px;
     text-align: center;
 }
 
 .fa-github-square,
 .fa-telegram {
-    font-size: 35px; /* Если нужен больший размер, измените это значение */
+    font-size: 35px;
 }
