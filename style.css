@@ -39,6 +39,8 @@ p {
 a {
 	text-decoration: none;
 	margin-right: 20px
+	text-align: center;
+
 }
 .fa-github-square {
 	font-size: 35px;
