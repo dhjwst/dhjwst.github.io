@@ -1,50 +1,56 @@
 * {
-	font-family: monospace;
-	color: rgb(255, 255, 255);
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #000000;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
 }
-pre {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-#wrapper {
-	width: 100vw;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-#content {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-}
-h1 {
-	text-align: center;
-	font-size: 35px;
-	font-family: Z;
-}
-@font-face {
-	font-family: Z;
-	src: url(/fonts/Minecraft-Rus-NEW.woff);
-}
-p {
-	margin-top: 10px; 
-	text-align: center;
-	font-size: 35px;
-}
-a {
-	text-decoration: none;
-	margin-right: 20px
-	text-align: center;
 
+pre {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
-.fa-github-square {
-	font-size: 35px;
+
+#wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Z;
+    margin-bottom: 30px; /* Добавьте нужный отступ снизу */
+}
+
+@font-face {
+    font-family: Z;
+    src: url(/fonts/Minecraft-Rus-NEW.woff);
+}
+
+p {
+    margin-top: 30px; /* Увеличено расстояние между иконками и текстом */
+    text-align: center;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px; /* Исправлена точка с запятой */
+    text-align: center;
+}
+
+.fa-github-square,
 .fa-telegram {
-	font-size: 35px;
+    font-size: 35px; /* Если нужен больший размер, измените это значение */
 }
