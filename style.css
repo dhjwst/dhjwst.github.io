@@ -55,3 +55,18 @@ a {
     font-size: 35px;
     text-align: center;
 }
+
+
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 110px;
+    }
+    .fa-github-square:before, .fa-square-github:before {
+        font-size: 100px;
+    }
+
+    .fa-telegram-plane:before, .fa-telegram:before {
+        font-size: 100px;
+    }
+}
+
