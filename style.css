@@ -27,10 +27,6 @@ h1 {
 	font-size: 35px;
 	font-family: Z;
 }
-a3 {
-	font-size: 22px;
-	text-align: center;
-}
 @font-face {
 	font-family: Z;
 	src: url(/fonts/Minecraft-Rus-NEW.woff);
@@ -38,9 +34,4 @@ a3 {
 p {
 	text-align: center;
 	margin-top: 5px;
-}
-a4 {
-	text-align: center;
-	font-family: Z;
-	margin-top: 30px;
 }
